@@ -3,7 +3,7 @@
 This repository contains an end-to-end pipeline for knowledge extraction, inspired by the "ODKE+: Ontology-Guided Open-Domain Knowledge Extraction with LLMs" paper by Khorshidi et al. (Apple, 2025): [https://arxiv.org%2Fpdf%2F2509.04696](https://arxiv.org/abs/2509.04696)
 
 This PoC implements the core ODKE+ architecture:
-* **Ontology-Guided Extraction:** Uses Pydantic and Gemini's `response_schema` feature as a modern alternative to "ontology snippets" described in the paper.
+* **Ontology-Guided Extraction:** Uses Pydantic and Gemini's structured output feature as a more robust alternative to "ontology snippets" described in the paper.
 * **LLM-based Grounder:** A second, lightweight LLM validates extracted facts against their source evidence to prevent hallucinations.
 * **Corroborator:** A robust ingestion process that resolves conflicts using a "Freshness > Trust" scoring algorithm.
 * **Staleness Handling:** Automatically deactivates facts that are no longer found at the source.
