@@ -1,0 +1,6 @@
+neo4j
+beautifulsoup4
+requests
+google-generativeai
+python-dotenv
+pydantic
