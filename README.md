@@ -1,6 +1,6 @@
 # Ontology-Guided Knowledge Extraction (ODKE+ Inspired)
 
-This repository contains an end-to-end pipeline for knowledge extraction, inspired by the "ODKE+: Ontology-Guided Open-Domain Knowledge Extraction with LLMs" paper by Khorshidi et al. (Apple, 2025): https://arxiv.org%2Fpdf%2F2509.04696
+This repository contains an end-to-end pipeline for knowledge extraction, inspired by the "ODKE+: Ontology-Guided Open-Domain Knowledge Extraction with LLMs" paper by Khorshidi et al. (Apple, 2025): [https://arxiv.org%2Fpdf%2F2509.04696](https://arxiv.org/abs/2509.04696)
 
 This PoC implements the core ODKE+ architecture:
 * **Ontology-Guided Extraction:** Uses Pydantic and Gemini's `response_schema` feature as a modern alternative to "ontology snippets" described in the paper.
