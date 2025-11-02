@@ -52,18 +52,6 @@ Run the query script to validate the final state of the graph. This script demon
 python query.py
 ```
 
-### Project Structure
-
-├── .env.example
-├── .gitignore
-├── requirements.txt
-|
-├── config.py
-├── ontology.py
-├── pipeline.py
-├── main.py
-└── query.py
-
 ### Acknowledgments
 This project is a PoC implementation based on the architecture described in the ODKE+ paper. All credit for the core architectural concepts belongs to the original authors.
 Khorshidi, S., et al. (2025). ODKE+: Ontology-Guided Open-Domain Knowledge Extraction with LLMs. [arXiv:2509.04696 [cs.CL]].
