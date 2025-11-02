@@ -54,15 +54,15 @@ python query.py
 
 ### Project Structure
 
-├── .env.example        # Template for environment variables
-├── .gitignore          # Hides secret .env file
-├── requirements.txt    # Project dependencies
+├── .env.example
+├── .gitignore
+├── requirements.txt
 |
-├── config.py           # API Keys, Target URLs, Trust Scores
-├── ontology.py         # All Pydantic models and schemas (The "Ontology")
-├── pipeline.py         # Core logic: Crawl, Extract, Ground, Ingest, Infer
-├── main.py             # Main script to orchestrate and run the pipeline
-└── query.py            # Test queries to validate the graph state
+├── config.py
+├── ontology.py
+├── pipeline.py
+├── main.py
+└── query.py
 
 ### Acknowledgments
 This project is a PoC implementation based on the architecture described in the ODKE+ paper. All credit for the core architectural concepts belongs to the original authors.
