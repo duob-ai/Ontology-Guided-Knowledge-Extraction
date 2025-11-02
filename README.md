@@ -52,6 +52,10 @@ Run the query script to validate the final state of the graph. This script demon
 python query.py
 ```
 
+**You can also view the created Knowledge Graph in the NEO4J console:**
+<img width="513" height="430" alt="Bildschirmfoto 2025-11-02 um 21 00 57" src="https://github.com/user-attachments/assets/ce184726-cb79-4a48-8401-4f8d0ab7dce9" />
+
+
 ### Acknowledgments
 This project is a PoC implementation based on the architecture described in the ODKE+ paper. All credit for the core architectural concepts belongs to the original authors.
 Khorshidi, S., et al. (2025). ODKE+: Ontology-Guided Open-Domain Knowledge Extraction with LLMs. [arXiv:2509.04696 [cs.CL]].
